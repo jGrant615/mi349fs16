@@ -1,3 +1,41 @@
+@import 'https://fonts.googleapis.com/css?family=Poiret+One';
+
+@font-face {
+    font-family: 'Glyphicons Halflings';
+    src: url('glyphicons-halflings-regular.eot');
+    src: url('glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('glyphicons-halflings-regular.woff') format('woff'), url('glyphicons-halflings-regular.ttf') format('truetype'), url('glyphicons-halflings-regular.svg#glyphicons-halflingsregular') format('svg');
+}
+
 body {
-  background-image: url("sky.jpg");
+	background-color: #89cff0;
+}
+
+.navbar {
+	text-align: center;
+	color: #fff;
+	font-family: 'Poiret One', cursive;
+}
+
+.carousel-inner {
+	display: block;
+	margin: auto;
+	width: 80%;
+	max-height: 500px;
+}
+
+.carousel-inner img {
+	max-height: 500px;
+	display: block;
+	margin: auto;
+}
+
+.carousel-indicators li {
+	background-color: #000;
+}
+
+
+.panel-default {
+	padding-top: 10px;
+	background-color: #89cff0;
+
 }

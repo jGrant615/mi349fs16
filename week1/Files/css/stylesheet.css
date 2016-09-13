@@ -11,23 +11,23 @@ body {
 }
 
 .navbar {
-	text-align: center;
 	color: #fff;
-	font-family: 'Poiret One', cursive;
+	text-align: center;
 	background-color: #071418;
+	font-family: 'Poiret One', cursive;	
 }
 
 .carousel-inner {
-	display: block;
-	margin: auto;
 	width: 80%;
+	margin: auto;
+	display: block;
 	max-height: 500px;
 }
 
 .carousel-inner img {
-	max-height: 500px;
-	display: block;
 	margin: auto;
+	display: block;
+	max-height: 500px;
 }
 
 .carousel-indicators li {
@@ -41,42 +41,41 @@ body {
 
 }
 
-#firstRow {
-	display: block;
+#firstRow {	
 	margin: auto;
+	display: block;
 	padding-top: 20px;
 	text-decoration: none;
 }
 
 .thumbnail {
-	text-decoration: none;
 	height: 425px;
+	text-decoration: none;
 	background: transparent;
 }
 
 footer {
-	display: block;
 	color: #fff;
-	background-color: #071418;
-	min-height: 200px;
+	display: block;
 	padding-bottom: 0;
-	
+	min-height: 200px;	
+	background-color: #071418;	
 }
 
-#name {
-	padding-left: 20px;
-	font-family: 'Dancing Script', cursive;
+#name {	
 	width: 400px;
+	padding-left: 20px;	
 	display: inline-block;
+	font-family: 'Dancing Script', cursive;
 }
 
 #icons {
 	color: #fff;
 	float: right;
-	display: inline-block;
 	padding-top: 75px;
-	padding-right: 50px;
 	padding-left: 30px;
+	padding-right: 50px;
+	display: inline-block;	
 }
 
 #facebook {
@@ -84,8 +83,8 @@ footer {
 }
 #contact {
 	padding-top: 30px;
-	display: inline-block;
 	text-align: center;
+	display: inline-block;
 }
 
 

@@ -51,6 +51,7 @@ body {
 .thumbnail {
 	text-decoration: none;
 	height: 425px;
+	background: transparent;
 }
 
 footer {
@@ -59,15 +60,42 @@ footer {
 	background-color: #071418;
 	min-height: 200px;
 	padding-bottom: 0;
-	font-family: 'Dancing Script', cursive;
+	
 }
 
 #name {
-	padding: 20px;
+	padding-left: 20px;
+	font-family: 'Dancing Script', cursive;
+	width: 400px;
+	display: inline-block;
 }
 
-footer i  {
-	background-color: #fff;
+#icons {
 	color: #fff;
+	float: right;
+	display: inline-block;
+	padding-top: 75px;
+	padding-right: 50px;
+	padding-left: 30px;
 }
+
+#facebook {
+	padding-right: 10px;
+}
+#contact {
+	padding-top: 30px;
+	display: inline-block;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
 

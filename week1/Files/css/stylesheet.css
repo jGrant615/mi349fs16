@@ -1,4 +1,4 @@
-@import 'https://fonts.googleapis.com/css?family=Dancing+Script|Poiret+One';
+@import 'https://fonts.googleapis.com/css?family=Dancing+Script|Poiret+One|Italianno';
 
 @font-face {
     font-family: 'Glyphicons Halflings';
@@ -62,10 +62,13 @@ footer {
 }
 
 #name {
+  float: left;
 	width: 400px;
+  font-size: 50px;
+  padding-top: 35px;
 	padding-left: 20px;
 	display: inline-block;
-	font-family: 'Dancing Script', cursive;
+	font-family: 'Italianno', cursive;
 }
 
 #icons {

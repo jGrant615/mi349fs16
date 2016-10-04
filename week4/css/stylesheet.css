@@ -1,0 +1,13 @@
+@import 'https://fonts.googleapis.com/css?family=Dancing+Script|Poiret+One|Italianno';
+
+@font-face {
+    font-family: 'Glyphicons Halflings';
+    src: url('glyphicons-halflings-regular.eot');
+    src: url('glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('glyphicons-halflings-regular.woff') format('woff'), url('glyphicons-halflings-regular.ttf') format('truetype'), url('glyphicons-halflings-regular.svg#glyphicons-halflingsregular') format('svg');
+}
+
+
+a, p {
+  padding-left: 20px;
+  color: #000;
+}

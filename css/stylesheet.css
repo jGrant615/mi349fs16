@@ -1,0 +1,90 @@
+@import 'https://fonts.googleapis.com/css?family=Dancing+Script|Poiret+One|Italianno';
+
+@font-face {
+    font-family: 'Glyphicons Halflings';
+    src: url('glyphicons-halflings-regular.eot');
+    src: url('glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('glyphicons-halflings-regular.woff') format('woff'), url('glyphicons-halflings-regular.ttf') format('truetype'), url('glyphicons-halflings-regular.svg#glyphicons-halflingsregular') format('svg');
+}
+
+body {
+	background-color: #7fe5b4;
+}
+
+.navbar {
+	color: #fff;
+	text-align: center;
+	background-color: #071418;
+	font-family: 'Poiret One', cursive;
+}
+
+.carousel-inner {
+	width: 80%;
+	margin: auto;
+	display: block;
+	max-height: 500px;
+}
+
+.carousel-inner img {
+	margin: auto;
+	display: block;
+	max-height: 500px;
+}
+
+.carousel-indicators li {
+	background-color: #000;
+}
+
+
+.panel-default {
+	padding: 10px;
+	background-color: #89cff0;
+
+}
+
+#jobs {
+	margin: auto;
+	display: block;
+	padding-top: 20px;
+	text-decoration: none;
+}
+
+.thumbnail {
+	height: 425px;
+	text-decoration: none;
+}
+
+footer {
+	color: #fff;
+	display: block;
+	padding-bottom: 0;
+	min-height: 200px;
+	background-color: #071418;
+}
+
+#name {
+  float: left;
+	width: 400px;
+  font-size: 50px;
+  padding-top: 35px;
+	padding-left: 20px;
+	display: inline-block;
+	font-family: 'Italianno', cursive;
+}
+
+#icons {
+	color: #fff;
+	float: right;
+	padding-top: 75px;
+	padding-left: 30px;
+	padding-right: 50px;
+	display: inline-block;
+}
+
+#facebook {
+	padding-right: 10px;
+}
+#contact {
+	padding-top: 30px;
+	text-align: center;
+	display: inline-block;
+}

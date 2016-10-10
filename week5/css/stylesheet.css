@@ -1,0 +1,9 @@
+.navbar {
+  text-align: center;
+  text-decoration: none;
+  color: @white;
+}
+
+#text {
+  color: #6b6b6b;
+}

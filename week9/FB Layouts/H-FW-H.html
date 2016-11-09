@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Flexbox Layout 1</title>
+
+    <!-- Bootstrap & Font Awesome -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/stylesheet.css" rel="stylesheet">
+    <link href="../css/font-awesome.min.css" rel="stylesheet">
+
+    <style>
+      .fb1{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-left:50px;
+        padding-right: 50px;
+      }
+
+      .b1, .b2, .b3{
+        margin-top: 20px;
+        padding: 5px;
+        color: #ffffff;
+        background-color: #f46842;
+      }
+
+    </style>
+  </head>
+  <body>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="../js/bootstrap.min.js"></script>
+    <header class="fb1">
+      <h2 class="b1">Header</h2>
+    </header>
+    <div class="fb1">
+      <p class="b2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+         veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+         ea commodo consequat.</p>
+    </div>
+    <footer class="fb1">
+      <h2 class="b3">Footer</h2>
+    </footer>
+  </body>
+</html>

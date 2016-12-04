@@ -20,12 +20,10 @@ a:hover{
 a:active{
   color: #FF5E04;
 }
-h1{
+h1, h3, h4, p, li{
   color: #FFFFFF;
   text-align: center;
-}
-p{
-  color: #FFFFFF;
+  font-family: 'P'
 }
 input[type=text] {
   margin: 8px 0;
@@ -50,6 +48,10 @@ input[type=text] {
   color: #FFFFFF;
   position: relative;
 }
+.home-contact{
+  text-align: center;
+  margin-top: 400px;
+}
 .center-img-container{
   background-color:#FF5E04;
   display: inline-block;
@@ -62,7 +64,7 @@ input[type=text] {
   left: 50%;
   margin-top: -110px;
   margin-left: -140px;
-  border: 7px solid #FF5E04; /*Orange*/
+  border: 4px solid #FF5E04; /*Orange*/
   display: block;
 }
 .resume-half{
@@ -90,7 +92,7 @@ input[type=text] {
   top: 50%;
   left: 50%;
   margin-left: -95px;
-  margin-top: 150px;
+  margin-top: 50px;
 }
 .contact-header{
   color: #FFFFFF;
@@ -108,4 +110,7 @@ input[type=text] {
   padding: 40px;
   padding-top: 10px;
   background-color: rgba(255, 255, 255, .15)
+}
+.consult{
+  text-align: left;
 }

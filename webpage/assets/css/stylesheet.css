@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script|Poiret+One');
+
+body{
+  /*background-color: #D1CFCF;*/
+  background-image: url("../img/bl-background.jpg");
+}
+nav{
+  background-image: url("../img/dark-background.jpg");
+  margin-bottom: 0!important;
+}
+iframe{
+  /*padding: 30px;*/
+}
+a{
+  color: #FFFFFF;
+}
+a:hover{
+  color: #FF5E04;
+}
+a:active{
+  color: #FF5E04;
+}
+h1{
+  color: #FFFFFF;
+  text-align: center;
+}
+p{
+  color: #FFFFFF;
+}
+input[type=text] {
+  margin: 8px 0;
+  border-radius: 4px;
+}
+.pages{
+  padding-left: 0px;
+  list-style-type: none;
+  text-align: center;
+}
+.nav-page{
+  padding: 0 25px;
+  display: inline;
+  vertical-align: -webkit-baseline-middle;
+  color: #D1CFCF;
+}
+.signature{
+  font-family: 'Dancing Script', cursive;
+  margin-top: 120px;
+  text-align: center;
+  font-size: 72px;
+  color: #FFFFFF;
+  position: relative;
+}
+.center-img-container{
+  background-color:#FF5E04;
+  display: inline-block;
+}
+.home-img{
+  border-radius: 50%;
+  max-width: 20%;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -110px;
+  margin-left: -140px;
+  border: 7px solid #FF5E04; /*Orange*/
+  display: block;
+}
+.resume-half{
+  background-image: url("../img/bl-background.jpg");
+  padding: 30px;
+}
+@media (min-width: 992px){
+  .exp-half{
+    padding-left: 50px;
+  }
+  .work-exp-thumbnails, .prev-work-thumbnails {
+    padding-left: 50px!important;
+  }
+}
+.work-exp-thumbnails, .prev-work-thumbnails{
+  margin: auto;
+  width: 150%;
+  padding: 15px;
+}
+.exp-link{
+  text-align: center;
+}
+.contact{
+  position: relative;
+  top: 50%;
+  left: 50%;
+  margin-left: -95px;
+  margin-top: 150px;
+}
+.contact-header{
+  color: #FFFFFF;
+  padding-left: 10px;
+}
+.google-cal{
+  margin-top: 25px;
+}
+#email{
+  padding-top: 25px;
+  text-align: center;
+}
+.form-container{
+  display: inline-block;
+  padding: 40px;
+  padding-top: 10px;
+  background-color: rgba(255, 255, 255, .15)
+}

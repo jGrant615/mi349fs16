@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css?family=Limelight|Poiret+One');
+
+body{
+  /*background-color: #D1CFCF;*/
+  background-image: url("../img/bl-background.jpg");
+}
+nav{
+}
+iframe{
+  /*padding: 30px;*/
+}
+a{
+  color: #FFFFFF;
+}
+a:hover{
+  color: #FF5E04;
+}
+a:active{
+  color: #FF5E04;
+}
+h1, h3, h4, p, li{
+  color: #FFFFFF;
+  text-align: center;
+  font-family: 'P'
+}
+input[type=text] {
+  margin: 8px 0;
+  border-radius: 4px;
+}
+.pages{
+  display: -webkit-box;
+  background-image: url("../img/dark-background.jpg");
+  margin: 0!important;
+  overflow: hidden;
+  list-style-type: none;
+  padding: 0;
+  /*padding-left: 0px;
+  list-style-type: none;
+  text-align: center;*/
+}
+.nav-page-container{
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+.nav-pages{
+  padding: 0 10px;
+}
+.nav-pages a{
+  display: block;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.nav-pages a:hover:not(.active) {
+  background-color: #FF5E04;
+}
+.signature{
+  font-family: 'Limelight', cursive;
+  margin-top: 120px;
+  font-size: 72px;
+  color: #FFFFFF;
+}
+@media(max-width: 768px){ /*@screen-md*/
+  .signature{
+    font-size: 55px;
+  }
+}
+@media(max-width: 480px){ /*@screen-sm*/
+  .signature{
+    font-size: 40px;
+  }
+}
+.home-contact{
+  text-align: center;
+  margin-top: 400px;
+}
+#contact-me{
+  display: block;
+}
+.center-img-container{
+  display: inline-block;
+  text-align: center;
+}
+.home-img{
+  border-radius: 50%;
+  max-width: 20%;
+  min-width: 15%;
+  margin-left: auto;
+  margin-right:auto;
+  border: 4px solid #FF5E04; /*Orange*/
+  display: inline;
+}
+.resume-half{
+  background-image: url("../img/bl-background.jpg");
+  padding: 30px;
+}
+@media (min-width: 992px){
+  .exp-half{
+    padding-left: 50px;
+  }
+}
+.work-exp-thumbnails, .prev-work-thumbnails{
+  margin: auto;
+  width: 100%;
+}
+.exp-link{
+  text-align: center;
+}
+.contact{
+  position: relative;
+  top: 50%;
+  left: 50%;
+  margin-left: -95px;
+  margin-top: 50px;
+}
+.contact-header{
+  color: #FFFFFF;
+  padding-left: 10px;
+}
+.google-cal{
+  margin-top: 25px;
+}
+#email{
+  padding-top: 25px;
+  text-align: center;
+}
+.form-container{
+  display: inline-block;
+  padding: 40px;
+  padding-top: 10px;
+  background-color: rgba(255, 255, 255, .15)
+}
+.consult{
+  text-align: left;
+  font-size: 18px;
+}
